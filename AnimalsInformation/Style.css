@@ -1,0 +1,88 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-image: url("background.jpg");
+
+    
+  }
+
+  .container {
+    background-color: #ffffff;
+    width: 80vw;
+    max-width: 37.5em;
+    padding: 3em 2.5em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 0.62em;
+    box-shadow: 0 1.15em 1.8em rgba(8, 21, 65, 0.25);
+  }
+
+  #animalName{
+    gap: 1.25em;
+    margin-right: 1em;
+    background-color:rgb(246, 244, 244);
+    font-size: 1em;
+    padding: 0.50em 7em;
+    border: none;
+    border-radius: 2em 2em;
+    border: 2px solid rgb(215, 215, 215);
+    outline: none;
+    color: #222a43;
+  }
+
+  #searchButton{
+    display: relative;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1em;
+    background-color: #311ac5;
+    color: #ffffff;
+    padding: 12px 35px;
+    border: none;
+    border-radius: 1.5em;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+
+  .error{
+    color: rgb(241, 100, 100);
+  }
+  
+  
+  .clear button {
+    display: none;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1em;
+    background-color: #311ac5;
+    color: #ffffff;
+    padding: 12px 35px;
+    border: none;
+    border-radius: 1.5em;
+  }
+  .search-wrapper input {
+    background-color:rgb(246, 244, 244);
+    font-size: 1em;
+    padding: 0 0.62em;
+    border: none;
+    border-radius: 2em 2em;
+    border: 2px solid rgb(215, 215, 215);
+    outline: none;
+    color: #222a43;
+  }
+  button {
+    padding: 5px 10px;
+  }
+
+  h3{
+    color: rgb(246, 121, 121);
+  }
+  #caption{
+    color:rgb(118, 113, 113);
+  }
